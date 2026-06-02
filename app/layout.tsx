@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hun Jeong — Science Education Researcher",
+  title: "Hun Jeong | Science Education Portfolio",
   description:
     "Doctoral student in Science Education at Seoul National University. Specializing in qualitative research, scientific argumentation, and epistemic agency.",
   openGraph: {
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body>{children}</body>
     </html>
   );
